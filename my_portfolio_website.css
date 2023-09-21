@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Basic&family=Bayon&family=Handlee&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* for scrolling to a particular section smoothly */
+html{
+    scroll-behavior: smooth;
+}
+/* background image
+.body {
+    background-image: url('background\ image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.45;
+} */
+/* name */
+.name{
+    text-align: left ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #D7F9FF;
+    font-family: Barlow;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+    margin-left: 40px;
+}
+/* navbar */
+.navbar{
+    background: #091540;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    flex-shrink: 0;
+    align-items: center;
+    z-index: 1;
+    box-sizing: border-box;
+    text-align: right;
+    position: fixed;
+}
+
+.content {
+    font-family: Barlow;
+    display: inline-block;
+    list-style: none;
+    margin: 20px 10px;
+    font-size: 25px;
+}
+
+.content a {
+    color:#D7F9FF;
+    text-decoration: none;
+}
+
+#list {
+    display: inline-block;
+    margin-left: 640px;
+}
+
+/* hover on navbar links */
+nav ul a:hover{
+    color: #3D518C;
+}
+/* background image */
+.background{
+    opacity: 0.45; 
+    width: 100%; 
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+/* main body */
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* welcome text */
+.maintext{
+    text-align: center;
+    z-index: 1;
+    font-family: Handlee;
+    flex-shrink: 0;
+    color: #091540;
+    font-size: 8vh;
+    font-weight: 400;
+    margin-top: 30vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.button{
+    border-radius: 8px;
+    border: none;
+    height: 7vh;
+    width: 25vh;
+    background: #3D518C;;
+    color: #D7F9FF;
+    text-align: center;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    margin-top: 4vw;
+    text-decoration: none;
+    font-size: 3vh;
+    align-items: center;
+}
+
+/* introduction section */
+/* my picture */
+.mypic{
+    width: 350px;
+    height: auto;
+    margin-top: 30vh;
+    margin-left: 45vh;
+}
+.introduction{
+    display: flex;
+    flex-direction: row;
+}
+/* introduction heading */
+.intro{
+    font-family: Bayon;
+    color: #091540;
+    font-size: 5vh;
+    margin-top: 30vh;
+    text-align: center;
+    position: absolute;
+    /* z-index: 1; */
+    margin-left: 108vh;
+}
+.introtext{
+    width: 500px;
+    height: 408px;
+    flex-shrink: 0;
+    color: #091540;
+    font-family: Basic;
+    font-size: 3.5vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 7vh;
+    margin-top: 45vh;
+}
+
+/* contact section */
+.contact{
+    justify-content : center;
+    display: flex;
+    flex-direction: row;
+}
+/* heading connect with me */
+.contact h3{
+    font-family: Bayon;
+    color: #091540;
+    font-size: 5vh;
+    margin-top: 30vh;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+/* social media links */
+.contact li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ig{
+    width: 30px;
+    margin-top: 50vh;
+}
+.github{
+    width: 30px;
+    margin-top: 50vh;
+}
+.linkedin{
+    width: 30px;
+    margin-top: 50vh;
+}
+.socials{
+    margin-bottom: 10vh;
+    align-items: center;
+}
+

@@ -8,16 +8,10 @@
 html{
     scroll-behavior: smooth;
 }
-/* background image
-.body {
-    background-image: url('background\ image.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    opacity: 0.45;
-} */
+
 /* name */
 .name{
-    text-align: left ;
+    text-align: center ;
     margin-top: 10px;
     margin-bottom: 10px;
     text-decoration: none;
@@ -44,11 +38,19 @@ html{
     position: fixed;
 }
 
+nav ul{
+    margin-right: 10vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+}
 .content {
     font-family: Barlow;
     display: inline-block;
     list-style: none;
-    margin: 20px 10px;
+    /* margin: 20px 10px; */
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 25px;
 }
 
@@ -59,7 +61,7 @@ html{
 
 #list {
     display: inline-block;
-    margin-left: 640px;
+    /* margin-left: 640px; */
 }
 
 /* hover on navbar links */

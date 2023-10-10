@@ -48,7 +48,6 @@ nav ul{
     font-family: Barlow;
     display: inline-block;
     list-style: none;
-    /* margin: 20px 10px; */
     margin-left: 5px;
     margin-right: 5px;
     font-size: 25px;
@@ -61,12 +60,17 @@ nav ul{
 
 #list {
     display: inline-block;
-    /* margin-left: 640px; */
 }
 
 /* hover on navbar links */
 nav ul a:hover{
     color: #3D518C;
+}
+
+/* media query for nav bar */
+@media only screen and (max-width:600px){
+    
+
 }
 /* background image */
 .background{
@@ -76,6 +80,19 @@ nav ul a:hover{
     position: fixed;
     z-index: -1;
 }
+
+/* background image media query */
+/* @media only screen and (max-width:600px){
+    .background{
+        opacity: 0.45; 
+        width: 100%; 
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+
+} */
+
 /* main body */
 .body{
     display: flex;
@@ -151,6 +168,43 @@ nav ul a:hover{
     margin-top: 42vh;
 }
 
+/* media query for introduction page */
+@media only screen and (max-width: 600px) {
+    .mypic{
+        height: 30vh;
+        margin-top: 25vh;
+        display: block;
+        margin: 20vh auto;
+        margin-bottom: 0 !important;
+    }
+    .introduction{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* introduction heading */
+    .intro{
+        font-family: Bayon;
+        color: #091540;
+        font-size: 3vh;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2vh;
+    }
+    .introtext{
+        width: 30vh;
+        height: 70vh; 
+        color: #091540;
+        font-family: Basic;
+        font-size: 2vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 3vh;
+        margin: 2vh 10px;
+    }
+        
+}
 /* contact section */
 .contact{
     justify-content : center;

@@ -69,12 +69,35 @@ nav ul a:hover{
 
 /* media query for nav bar */
 @media only screen and (max-width:600px){
+    nav ul{
+        margin-right: 10vh;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: auto;
+    }
+    .content {
+        font-family: Barlow;
+        display: inline-block;
+        list-style: none;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 25px;
+    }
     
+    .content a {
+        color:#D7F9FF;
+        text-decoration: none;
+    }
+    
+    #list {
+        display: inline-block;
+    }
 
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* background image */
 .background{
-    opacity: 0.45; 
+    opacity: 0.35; 
     width: 100%; 
     height: 100%;
     position: fixed;
@@ -92,7 +115,7 @@ nav ul a:hover{
     }
 
 } */
-
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* main body */
 .body{
     display: flex;
@@ -134,6 +157,43 @@ nav ul a:hover{
     font-size: 3vh;
 }
 
+/* media query for welcome note */
+@media only screen and (max-width:600px){
+    .maintext{
+        text-align: center;
+        font-family: Handlee;
+        flex-shrink: 0;
+        color: #091540;
+        font-size: 5vh;
+        font-weight: 400;
+        margin-top: 30vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    
+    .button{
+        border-radius: 8px;
+        border: none;
+        height: 5vh;
+        width: 15vh;
+        background: #3D518C;;
+        cursor: pointer;
+        align-items: center;
+        margin-top: 4vw;
+    }
+
+    .button a{
+        color: #D7F9FF;
+        text-align: center;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        font-size: 1.95vh;
+    }
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* introduction section */
 /* my picture */
 .mypic{
@@ -203,8 +263,40 @@ nav ul a:hover{
         margin-top: 3vh;
         margin: 2vh 10px;
     }
-        
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.services-heading{
+    font-family: Bayon;
+    color: #091540;
+    font-size: 5vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+.services-list{
+    /* width: 50vh;
+    height: 70vh;  */
+    list-style-type: circle;
+    flex-shrink: 0;
+    color: #091540;
+    font-family: Basic;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2vh;
+}
+/* media query for services section */
+@media only screen and (max-width:600px) {
+    .services-heading{
+        font-family: Bayon;
+        color: #091540;
+        font-size: 3vh;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2vh;
+    }
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* contact section */
 .contact{
     justify-content : center;
